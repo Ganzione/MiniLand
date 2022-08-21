@@ -85,7 +85,7 @@ namespace MiniLand
 
                 switch (key.Key) //커서가 선택목록 밖으로 벗어나지 않게
                 {
-                    case ConsoleKey.UpArrow:
+                    case ConsoleKey.UpArrow: 
                         posY--;
                         if (posY < 0)
                         {
